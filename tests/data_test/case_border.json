@@ -1,0 +1,10 @@
+[
+  { "argumento": 11111111, "expected_status": 404 },
+  { "argumento": "", "expected_status": 400 },
+  { "argumento": null, "expected_status": 400 },
+  { "argumento": -9, "expected_status": 400 },
+  { "argumento": 0, "expected_status": 400 },
+  { "argumento": "7675xrjl", "expected_status": 422 },
+  { "argumento": "   ", "expected_status": 400 },
+  { "argumento": "975.64", "expected_status": 422 }
+] 
